@@ -110,29 +110,149 @@
 
         <p><u><strong>FIN</strong></u></p>
     </section>
-
     <section>
-        <nav>
+    <nav>
         <h2>Ejercicio 3</h2>
         
         <h3> <u>Enlaces a páginas que me gustan</u> </h3>
 
-        <p><strong>Paginas de animé</strong></p>
-        <div>
-        <a href="https://www.otakustv.com/buscador.php" target="_blanck"> A Otakustv</a>
-        </div>
-        <a href="https://www.crunchyroll.com/" target="_blanck"> A Crunchyroll</a>
-
-        <p><strong>Redes Sociales</strong></p>
-
-        <a href="https://www.facebook.com" target="_blanck"> A Facebook</a>
-    
-        <p><strong>Mi Propia página de pelis</strong></p>
-
-        <a href="../../Clase 2/clase2.html" target="_blanck"> Mi pagina</a>
+        <h4><strong>Paginas de animé</strong></h4>
+        
+        <article>
+            <a href="https://www.otakustv.com/buscador.php" target="_blanck"> A Otakustv</a>
+                <div>
+                    <img src="./otakutv.png" title="Otakus" alt="ups, esto no funca">
+                </div>
+        </article>
+       
+        <article>
+            <a href="https://www.crunchyroll.com/" target="_blanck"> A Crunchyroll</a>
+                <div>
+                    <img src="./crunchyroll.png" title="Crunchy" alt="ups, esto no funca">
+                </div>
+        </article>
+        
+        <article>
+            <p><strong>Redes Sociales</strong></p>
+                <a href="https://www.facebook.com" target="_blanck"> A Facebook</a>
+                    <div>
+                    <img src="./facebook.jpg" title="El Feis" alt="ups, esto no funca">
+                    </div>
+        </article>
+        
+        <article>
+            <p><strong>Mi Propia página de pelis</strong></p>
+            <a href="../../Clase 2/clase2.html" target="_blanck"> Mi pagina</a>
+                <div>
+                    <img src="./peliculas.jpg" title="Es pedorra, pero la primera" alt="ups, esto no funca">
+                </div>
+        </article>
+    </nav>
+    </section>   
+    <section>
+        <h2>Ejercicio 4</h2>
+        
+        <article>
+        <h3>Menu</h3>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Noticias</li>
+                <ul>
+                    <li><a href="https://cnnespanol.cnn.com/category/noticias/" target="_blanck">Recientes</a></li>
+                    <li><a href="https://cnnespanol.cnn.com/2015/04/29/las-10-noticias-mas-leidas-en-cnnespanol-com/" target="_blanck">Mas Leídas</a></li>
+                    <li><a href="https://cnnespanol.cnn.com/category/noticias/"target="_blanck">Recientes</a></li>
+                </ul>
+                <li>Articulos</li>
+                    <ol>
+                        <li><strong>HTML</strong></li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Otros</li>
+                     </ol>
+                <li>Contacto
+                    <dl>
+                            <dt>
+                                 <em>Email</em>
+                            </dt>
+                            <dd>
+                                 <input type= "email" placeholder="nombre@direccion.com">
+                            </dd>
+                                 <em>Teléfono</em>
+                            <dd>
+                                <input type= "tel" placeholder="900 900 900">
+                            </dd>                           
+                    </dl>
+                </li>       
+            </ul>
         </nav>
+        </article>
     </section>
+    <section>
+        <h2>Ejercicio 5</h2>
 
+        <h3>Cargue su CV</h3>
+            <form>
+                <p>
+                    <label>
+                        Apellido y Nombre
+                            <input type= "text" placeholder="ej. Perez Juan">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        DNI
+                            <input type= "number" placeholder="ej. 33333333">
+                    </label>
+                </p>
+                <p>
+                        Género
+                    <label>
+                             <input type= "radio" name="Género" id=""/>Femenino
+                             <input type= "radio" name="Género" id=""/>Masculino
+                    </label>
+                </p>
+                    <label>
+                        Dirección
+                             <input type= "text" placeholder="ej. Av.Colon xxxx">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Localidad
+                             <Select name= "Elige tu localidad" id= "">
+                                <option value="Opcion1">Mar del Plata</option>
+                                <option value="Opcion2">Batan</option>
+                                <option value="Opcion3">Miramar</option>
+                            </Select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Email
+                            <input type= "email" placeholder="nombre@direccion.com">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Teléfono
+                            <input type= "tel" placeholder="900 900 900">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Inserte su CV (PDF)
+                            <input type="file">
+                    </label>
+                </p>
+                <p>
+                        <input type= "checkbox" checked/>
+                    <label>Acepto los términos y condiciones</label>
+                </p>
+                <button>Enviar</button>
+            </form>
+
+    </section>
 
 </body>
 </html>
